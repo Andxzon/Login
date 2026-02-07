@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Login V</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+
+    <div class="login-card">
+        <h2>LOG IN</h2>
+        <h3>Welcome to Website</h3>
+
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="Email/User" class="input-field" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" class="input-field" required>
+            </div>
+
+            <div class="controls">
+                <label class="checkbox-group">
+                    <input type="checkbox" checked>
+                    <span>Remember</span>
+                </label>
+                <a href="reset-password.html" class="forgot-pass">Forgot password?</a>
+            </div>
+            <div class="register-section">
+                <p>Don't have an account?</p>
+                <button id="btn-register" class="btn-secondary">CREATE ACCOUNT</button>
+            </div>
+
+            <button type="submit" class="btn-login">LOGIN</button>
+        </form>
+
+        <div class="divider">
+            <span>or connect with</span>
+        </div>
+
+        <div class="social-container">
+            <button class="social-item" title="Google"><i class="fab fa-google"></i></button>
+            <button class="social-item" title="GitHub"><i class="fab fa-github"></i></button>
+            <button class="social-item" title="X"><i class="fab fa-x-twitter"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
